@@ -1,0 +1,1 @@
+This repository demonstrates a common error in assembly programming: out-of-bounds memory access.  The `bug.asm` file contains the erroneous code, while `bugSolution.asm` provides a corrected version.  The error occurs due to the lack of bounds checking on the `ecx` register, which is used to calculate the memory address.
